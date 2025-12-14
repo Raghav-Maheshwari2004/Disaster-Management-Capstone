@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.jpg
+*.png
+*.mp4
+# Only upload the model if it is small (<100MB)
+# If best.pt is >100MB, add it here. If it's small, keep it.
