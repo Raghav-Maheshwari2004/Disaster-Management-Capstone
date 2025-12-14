@@ -6,7 +6,7 @@ model = YOLO('best.pt')
 
 # 2. Run detection on the specific image file
 # conf=0.4 means "Only detect if 40% sure"
-results = model('test.jpg', conf=0.4)
+results = model('test.jpg', conf=0.1)
 
 # 3. Show the results
 for result in results:
